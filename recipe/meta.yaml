@@ -1,5 +1,5 @@
 {% set name = "cryotypes" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cryotypes-{{ version }}.tar.gz
-  sha256: ca86a8b62be4051f40f9e1c7af190c65be3e8016d913fdbffba070ea77ed91c2
+  sha256: f793daa00d1ace96ac60dc38072b189aba1d737351b89de2ba5475c26f74a213
 
 build:
   noarch: python
